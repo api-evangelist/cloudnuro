@@ -1,0 +1,37 @@
+aid: cloudnuro
+name: CloudNuro
+description: >-
+  CloudNuro is a SaaS security posture management and license optimization
+  platform providing SSPM, compliance monitoring, and cost governance for
+  enterprise SaaS environments. It helps organizations manage risk and
+  reduce SaaS spend.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SaaS Management
+  - SSPM
+  - Compliance
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: cloudnuro:cloudnuro
+    name: CloudNuro
+    description: >-
+      CloudNuro is a SaaS security posture management and license optimization
+      platform providing SSPM, compliance monitoring, and cost governance.
+    humanURL: https://www.cloudnuro.ai
+    tags:
+      - SaaS Management
+      - SSPM
+    properties:
+      - type: Documentation
+        url: https://www.cloudnuro.ai
+common:
+  - type: Website
+    url: https://www.cloudnuro.ai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
