@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cn": "https://cloudnuro.ai/ns/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "SaaSApplication": {
+      "@id": "cn:SaaSApplication",
+      "@context": {
+        "id": "schema:identifier",
+        "name": "schema:name",
+        "vendor": "schema:provider",
+        "category": "schema:applicationCategory",
+        "discoveredAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "License": {
+      "@id": "cn:License",
+      "@context": {
+        "id": "schema:identifier",
+        "applicationId": "cn:applicationId",
+        "type": "cn:licenseType",
+        "assigned": "cn:assigned",
+        "available": "cn:available",
+        "cost": "schema:price"
+      }
+    },
+
+    "User": {
+      "@id": "schema:Person",
+      "@context": {
+        "id": "schema:identifier",
+        "email": "schema:email",
+        "department": "cn:department",
+        "manager": "cn:manager",
+        "lastActive": {
+          "@id": "cn:lastActive",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "Contract": {
+      "@id": "cn:Contract",
+      "@context": {
+        "id": "schema:identifier",
+        "applicationId": "cn:applicationId",
+        "vendor": "schema:provider",
+        "renewalDate": {
+          "@id": "cn:renewalDate",
+          "@type": "xsd:date"
+        },
+        "amount": "schema:price"
+      }
+    },
+
+    "Chargeback": {
+      "@id": "cn:Chargeback",
+      "@context": {
+        "id": "schema:identifier",
+        "costCenter": "cn:costCenter",
+        "department": "cn:department",
+        "applicationId": "cn:applicationId",
+        "amount": "schema:price",
+        "period": "cn:period"
+      }
+    }
+  }
+}
