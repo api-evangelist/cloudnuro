@@ -24,7 +24,7 @@ url: >-
 created: '2026-03-27'
 modified: '2026-04-26'
 specificationVersion: '0.19'
-x-type: company
+kind: company
 x-company: CloudNuro
 x-api-public: false
 apis:
@@ -119,7 +119,7 @@ common:
     url: https://marketplace.microsoft.com/en-us/product/web-apps/cloudnurocorp1684298468280.cloudnuro
   - type: Contact
     url: https://www.cloudnuro.ai/contact-us
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/cloudnuro-context.jsonld
 maintainers:
   - FN: Kin Lane
