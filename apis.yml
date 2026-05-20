@@ -105,6 +105,8 @@ apis:
       - type: Documentation
         url: https://www.cloudnuro.ai
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cloudnuro
   - type: Website
     url: https://www.cloudnuro.ai
   - type: Product Overview
