@@ -2,13 +2,14 @@
   "repo": "cloudnuro",
   "feeds": [
     {
-      "source": "https://www.cloudnuro.ai/blog",
-      "feed_url": "",
-      "saved": 16,
-      "method": "agent-scrape"
+      "source": "https://www.cloudnuro.ai/integrations",
+      "feed_url": "https://www.cloudnuro.ai/integrations",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 33,
-  "fetched": "2026-06-27T12:33:12Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 39,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
