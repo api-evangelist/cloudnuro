@@ -62,6 +62,9 @@ apis:
     description: Dedicated management module for Microsoft 365 environments including license, group, and policy oversight.
     humanURL: https://www.cloudnuro.ai
     tags:
+      - Microsoft-365
+      - SaaS Management
+    tags_raw:
       - Microsoft 365
       - SaaS Management
     properties:
