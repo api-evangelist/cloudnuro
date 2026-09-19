@@ -125,6 +125,9 @@ apis:
     description: Financial accountability and SaaS/cloud cost allocation across departments and cost centers.
     humanURL: https://www.cloudnuro.ai
     tags:
+      - Chargebacks
+      - FinOps
+    tags_raw:
       - Chargeback
       - FinOps
     properties:
