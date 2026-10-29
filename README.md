@@ -1,4 +1,4 @@
-# CloudNuro (cloudnuro)
+# CloudNuro
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,71 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CloudNuro is an enterprise SaaS management and FinOps platform that combines SaaS discovery (shadow IT elimination), SaaS subscription and license optimization, user lifecycle and compliance management, SaaS-Chargeback and cost allocation, and Cloud FinOps for AWS, Azure, GCP, and OCI. CloudNuro provides 400+ pre-built connectors to leading SaaS, IaaS, IAM, ITSM, HR, and security platforms. The platform is SOC 2 Type II certified and has been recognized by Gartner in the SaaS Management Platforms market guide.
+CloudNuro is an enterprise SaaS management and FinOps platform that combines SaaS discovery (shadow IT), SaaS subscription and license optimization, user lifecycle and compliance management, SaaS-Chargeback and cost allocation, and Cloud FinOps for AWS, Azure, GCP, and OCI. It offers 400+ pre-built connectors to leading SaaS, IaaS, IAM, ITSM, HR, and security platforms. CloudNuro is SOC 2 Type II certified and has been recognized by Gartner in the SaaS Management Platforms market guide.
 
-**APIs.json:** [apis.yml](https://raw.githubusercontent.com/api-evangelist/cloudnuro/refs/heads/main/apis.yml)
+**Areas:** Cloud FinOps · Compliance · Cost Optimization · License Management · SaaS Management · Shadow IT · SSPM
 
-## Scope
+## CloudNuro on APIs.io
 
-- **Type:** Index
-- **x-type:** company
-- **Company:** CloudNuro
-- **Public API:** Not currently published
+Everything profiled for CloudNuro is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cloudnuro/](https://apis.io/providers/cloudnuro/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (7)
 
-Cloud FinOps, Compliance, Cost Optimization, License Management, SaaS Management, Shadow IT, SSPM
+- [CloudNuro SaaS Management Platform](https://apis.io/apis/cloudnuro/cloudnuro-platform/) — Unified SaaS and Cloud FinOps platform offering app discovery, subscription management, user lifecycle automation, contract and renewal tracking, license…
+- [CloudNuro Microsoft 365 Custodian](https://apis.io/apis/cloudnuro/cloudnuro-microsoft365-custodian/) — Dedicated management module for Microsoft 365 environments including license, group, and policy oversight.
+- [CloudNuro Salesforce Custodian](https://apis.io/apis/cloudnuro/cloudnuro-salesforce-custodian/) — Salesforce-specific governance, license optimization, and access control.
+- [CloudNuro ServiceNow Custodian](https://apis.io/apis/cloudnuro/cloudnuro-servicenow-custodian/) — ServiceNow application management and license oversight.
+- [CloudNuro Unified Cloud Custodian](https://apis.io/apis/cloudnuro/cloudnuro-unified-cloud-custodian/) — Cross-platform SaaS, PaaS, and IaaS management for AWS, Azure, GCP, and OCI under a single FinOps view.
+- [CloudNuro AI Custodian](https://apis.io/apis/cloudnuro/cloudnuro-ai-custodian/) — AI workload oversight, governance, and cost allocation for enterprise AI usage.
+- [CloudNuro Chargeback](https://apis.io/apis/cloudnuro/cloudnuro-chargeback/) — Financial accountability and SaaS/cloud cost allocation across departments and cost centers.
 
-## Products
+### Published properties
 
-### CloudNuro SaaS Management Platform
-The unified platform for SaaS discovery, subscription management, user lifecycle, contract and renewal tracking, license optimization, chargeback, and policy-based governance.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [Product Overview](https://www.cloudnuro.ai/product-overview)
-- [Integrations](https://www.cloudnuro.ai/integrations)
+#### JSON-LD (1)
 
-### Microsoft 365 Custodian
-Dedicated module for managing Microsoft 365 licenses, groups, and policy oversight.
+Linked-data contexts for the provider's vocabulary.
 
-### Salesforce Custodian
-Salesforce-specific governance, license optimization, and access control.
+- [Cloudnuro Context](https://apis.io/jsonld/cloudnuro/cloudnuro-context/)
 
-### ServiceNow Custodian
-ServiceNow application management and license oversight.
+#### Security (2)
 
-### Unified Cloud Custodian
-Cross-platform SaaS, PaaS, and IaaS management spanning AWS, Azure, GCP, and OCI.
+Authentication, trust centre, and vulnerability disclosure.
 
-### AI Custodian
-AI workload oversight, governance, and cost allocation for enterprise AI usage.
+- [Cloudnuro Domain Security](https://apis.io/security/cloudnuro/cloudnuro-domain-security/)
+- [Cloudnuro Trust Center](https://apis.io/security/cloudnuro/cloudnuro-trust-center/)
 
-### CloudNuro Chargeback
-Financial accountability and SaaS/cloud cost allocation across departments and cost centers.
+#### Plans and pricing (1)
 
-## Integration Categories
+Published plans, tiers and prices.
 
-- **Cloud Platforms:** AWS, Azure, GCP, OCI
-- **Productivity:** Microsoft 365, Google Workspace, Slack
-- **CRM/Sales:** Salesforce, HubSpot, Pipedrive, Dynamics 365
-- **ITSM:** ServiceNow, Freshservice, Jira
-- **HR/Payroll:** ADP, Keka, Rippling
-- **Security:** CrowdStrike, Auth0, OneTrust, KnowBe4
-- **Comms:** RingCentral, Zoom, Teams
-- **Finance/ERP:** Intuit, SAP
-- **Analytics/BI:** Datadog, Dynatrace, Qlik Sense
+- [Cloudnuro Plans Pricing](https://apis.io/plans/cloudnuro/cloudnuro-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cloudnuro Rate Limits](https://apis.io/rate-limits/cloudnuro/cloudnuro-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Cloudnuro Finops](https://apis.io/finops/cloudnuro/cloudnuro-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cloudnuro.ai)
-- [Product Overview](https://www.cloudnuro.ai/product-overview)
-- [Integrations](https://www.cloudnuro.ai/integrations)
 - [Blog](https://www.cloudnuro.ai/blog)
-- [Solutions](https://www.cloudnuro.ai/solutions/it-operations)
-- [Microsoft Marketplace](https://marketplace.microsoft.com/en-us/product/web-apps/cloudnurocorp1684298468280.cloudnuro)
-- [Contact](https://www.cloudnuro.ai/contact-us)
-- [JSON-LD](json-ld/cloudnuro-context.jsonld)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kinlane@gmail.com
+**Kin Score 14.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cloudnuro/](https://apis.io/providers/cloudnuro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CloudNuro: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cloudnuro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
